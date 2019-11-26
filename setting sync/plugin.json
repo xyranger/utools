@@ -1,0 +1,26 @@
+{
+    "pluginName": "vscode同步",
+    "description": "同步vscode的扩展和设置",
+    "author": "xy4beanbag",
+    "main": "index.html",
+    "preload":"preload.js",
+    "version": "0.0.1",
+    "features": [
+        {
+            "code": "upload",
+            "explain": "upload your settings",
+            "cmds": [
+                "upload",
+                "sync"
+            ]
+        },
+        {
+            "code": "download",
+            "explain": "download your settings",
+            "cmds": [
+                "download",
+                "sync"
+            ]
+        }
+    ]
+}
