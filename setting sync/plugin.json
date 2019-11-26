@@ -3,7 +3,7 @@
     "description": "同步vscode的扩展和设置",
     "author": "xy4beanbag",
     "main": "index.html",
-    "preload":"preload.js",
+    "preload": "preload.js",
     "version": "0.0.1",
     "features": [
         {
